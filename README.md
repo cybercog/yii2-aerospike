@@ -7,7 +7,7 @@ It includes a `Cache` and `Session` storage handler.
 Requirements
 ------------
 
-At least Aerospike version 3.5.3 Server and [Aerospike PHP Extension](http://www.aerospike.com/docs/client/php/install/)is required for all components to work properly.
+At least Aerospike version 3.5.3 Server and [Aerospike PHP Extension](http://www.aerospike.com/docs/client/php/install/) is required for all components to work properly.
 
 Installation
 ------------
@@ -29,7 +29,7 @@ return [
             'aerospike' =>
                 [
                     'config' => [ "hosts" => [ [ "addr" => "127.0.0.1", "port" => 3000 ] ]],
-                    'namespace' => 'happy',
+                    'namespace' => 'cache',
                     'set' => 'cache',
                     'persistent_connection' => true
                 ],
