@@ -1,15 +1,15 @@
 <?php
 
-/**
- * @author Nicolae Serban <nicolae.serban@gmail.com>
- */
-
 namespace yii\aerospike;
 
 use yii\base\Component;
 use yii\db\Exception;
 
-
+/**
+ * Aerospike Connection requires aerospike PHP Extension to work properly.
+ *
+ * @author Nicolae Serban <nicolae.serban@gmail.com>
+ */
 class Connection extends Component
 {
     /** @var array */
